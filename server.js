@@ -12,7 +12,9 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: 'https://recipe-sharing-web.vercel.app',
+  origin: ['https://recipe-sharing-web.vercel.app'],
+  method: ['GET', 'POST', 'PUT', 'DELETE'],
+  credentials: true
 }))
 
 app.use(express.json());
