@@ -4,7 +4,7 @@ import axios from 'axios';
 
 function Register() {
   const [name, setName] = useState('');
-  const [image, setImage] = useState(null);
+  const [setImage] = useState(null);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [imageBase64, setImageBase64] = useState('');

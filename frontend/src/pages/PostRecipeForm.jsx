@@ -7,7 +7,7 @@ function PostRecipeForm() {
     const [description, setDescription] = useState('');
     const [ingredients, setIngredients] = useState('');
     const [steps, setSteps] = useState('');
-    const [image, setImage] = useState(null);
+    const [ setImage] = useState(null);
     const [imageBase64, setImageBase64] = useState('');
     const navigate = useNavigate();
 
